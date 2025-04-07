@@ -1,0 +1,31 @@
+<svg width="474" height="474" viewBox="0 0 474 474" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="474" height="474" rx="38" fill="#0D0C10"/>
+    <rect x="121.5" y="119.5" width="235" height="235" rx="29.5" stroke="white" stroke-width="19"/>
+    <rect x="165.5" y="161.5" width="150" height="150" rx="20.5" stroke="white" stroke-width="19"/>
+    <line x1="164" y1="110" x2="164" y2="47" stroke="white" stroke-width="18"/>
+    <line x1="314" y1="110" x2="314" y2="47" stroke="white" stroke-width="18"/>
+    <line x1="239" y1="110" x2="239" y2="47" stroke="white" stroke-width="18"/>
+    <circle cx="163" cy="49" r="20" fill="white"/>
+    <circle cx="314" cy="49" r="20" fill="white"/>
+    <circle cx="239" cy="49" r="20" fill="white"/>
+    <line x1="314.232" y1="363.447" x2="314.055" y2="426.447" stroke="white" stroke-width="18"/>
+    <line x1="164.233" y1="363.025" x2="164.056" y2="426.025" stroke="white" stroke-width="18"/>
+    <line x1="239.232" y1="363.236" x2="239.055" y2="426.236" stroke="white" stroke-width="18"/>
+    <circle cx="314.055" cy="425.45" r="20" transform="rotate(-179.839 314.055 425.45)" fill="white"/>
+    <circle cx="163.056" cy="425.025" r="20" transform="rotate(-179.839 163.056 425.025)" fill="white"/>
+    <circle cx="239.055" cy="425.236" r="20" transform="rotate(-179.839 239.055 425.236)" fill="white"/>
+    <line x1="360.994" y1="162.052" x2="423.994" y2="162.012" stroke="white" stroke-width="18"/>
+    <line x1="361.088" y1="312.051" x2="424.088" y2="312.011" stroke="white" stroke-width="18"/>
+    <line x1="361.041" y1="237.052" x2="424.041" y2="237.012" stroke="white" stroke-width="18"/>
+    <circle cx="423.994" cy="161.012" r="20" transform="rotate(89.9643 423.994 161.012)" fill="white"/>
+    <circle cx="424.088" cy="312.012" r="20" transform="rotate(89.9643 424.088 312.012)" fill="white"/>
+    <circle cx="424.042" cy="237.011" r="20" transform="rotate(89.9643 424.042 237.011)" fill="white"/>
+    <line x1="112.017" y1="311.065" x2="49.0172" y2="311.015" stroke="white" stroke-width="18"/>
+    <line x1="112.137" y1="161.066" x2="49.1373" y2="161.016" stroke="white" stroke-width="18"/>
+    <line x1="112.077" y1="236.065" x2="49.0768" y2="236.015" stroke="white" stroke-width="18"/>
+    <circle cx="49.0161" cy="312.015" r="20" transform="rotate(-89.9538 49.0161 312.015)" fill="white"/>
+    <circle cx="49.1382" cy="161.016" r="20" transform="rotate(-89.9538 49.1382 161.016)" fill="white"/>
+    <circle cx="49.0767" cy="236.016" r="20" transform="rotate(-89.9538 49.0767 236.016)" fill="white"/>
+    <path d="M242 203C237.306 203 233.5 206.806 233.5 211.5C233.5 216.194 237.306 220 242 220V203ZM306 203H242V220H306V203Z" fill="white"/>
+    <path d="M260.995 251.5C256.3 251.5 252.495 255.306 252.495 260C252.495 264.694 256.3 268.5 260.995 268.5V251.5ZM306.006 251.5L260.995 251.5V268.5H306.006V251.5Z" fill="white"/>
+</svg>

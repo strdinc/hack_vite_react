@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+<html lang="ru" >
+
+<head>
+
+  <meta property="og:title" content="хакатон">
+  <meta property="og:url" content="https://hackathonidigit.ru">
+  <meta property="og:description" content="хакатон «цифровое студенчество КемГУ»">
+  <meta property="og:image" content="https://hackathonidigit.ru/img/iconWback.png">
+  <meta property="og:type" content="website">
+
+  <meta charset="UTF-8">
+  <title>хакатон</title>
+
+  <link rel="shortcut icon" href="img/iconWback.svg">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <link href = "font/Gilroy/stylesheet.css" rel = "stylesheet" type = "text/css" />
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+  <script src="Shader_WOGUI.js"></script>
+
+</head>
+
+<body>
+
+<div class="center-container">
+
+  <div id="menubuttonsall" class="buttons">
+    <button id="menuButton">меню <span class="arrow_menu">></span></button>
+    <button type="button" class="navigation_button navigation_button_start" id="start" data-scroll-to="first_screen">главная</button>
+    <button type="button" class="navigation_button navigation_button_participation" id="participation" data-scroll-to="second_screen">участие</button>
+    <button type="button" class="navigation_button navigation_button_schedule" id="schedule" data-scroll-to="third_screen">расписание</button>
+    <button type="button" class="navigation_button navigation_button_fq" id="fq" data-scroll-to="fourth_screen">faq</button>
+    <button type="button" class="navigation_button navigation_button_partners" id="partners" data-scroll-to="fifth_screen">партнеры</button>
+    <button type="button" class="navigation_button navigation_button_prize" id="prize" data-scroll-to="sixth_screen">призы</button>
+    <button type="button" class="navigation_button navigation_button_form" id="form" data-scroll-to="seventh_screen">заявка</button>
+  </div>
+
+  <div class="first_screen" id="first_screen">
+    <div class="first_screen_title">
+      <div class="title">хакатон</div>
+      <div class="sub_titles">
+        <div class="dates">19—20 апреля</div>
+        <div class="institution_st">цифровое студенчество КемГУ</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="second_screen" id="second_screen">
+    <div class="text_one_second">участвовать могут \n<br>студенты и школьники</div>
+    <div class="text_second_second">которые разбираются<br>в направлениях</div>
+    <img class="arrow" src="img/arrow.svg">
+    <div class="wrap">
+      <div class="items-wrap">
+        <div class="items marquee">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+        <div aria-hidden="true" class="items marquee">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+      </div>
+      <div class="items-wrap">
+        <div class="items marquee reverse">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+        <div aria-hidden="true" class="items marquee reverse">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+      </div>
+      <div class="items-wrap">
+        <div class="items marquee">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+        <div aria-hidden="true" class="items marquee">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+      </div>
+      <div class="items-wrap">
+        <div class="items marquee reverse">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+        <div aria-hidden="true" class="items marquee reverse">
+          <div class="item">back-end</div>
+          <div class="item">тестирование</div>
+          <div class="item">UX/UI</div>
+          <div class="item">аналитика</div>
+          <div class="item">project менеджмент</div>
+          <div class="item">front-end</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="third_screen" id="third_screen">
+    <div class="timeline">расписание</div>
+    <div class="boxes_cont">
+      <div class="schedule_boxes">
+        <div class="registration_box box">
+          <img class="registration_icon" src="img/reg_icon.svg">
+          <div class="registration_title">регистрация</div>
+          <div class="registration_dates">07 апреля<br>—<br>17 апреля</div>
+        </div>
+        <div class="open_box box">
+          <img class="open_icon" src="img/open_icon.svg">
+          <div class="open_title">открытие</div>
+          <div class="open_dates">19 апреля<br>09:00</div>
+        </div>
+        <div class="vs_box box">
+          <img class="vs_icon" src="img/vs_icon.svg">
+          <div class="vs_title">соревнования</div>
+          <div class="vs_dates students">19 апреля 10:00<br>—<br>20 апреля 11:00</div>
+        </div>
+        <div class="results_box box">
+          <img class="results_icon" src="img/results_icon.svg">
+          <div class="results_title">результаты</div>
+          <div class="results_dates students">20 апреля<br>12:00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fourth_screen" id="fourth_screen">
+    <div class="fq_title">faq</div>
+    <div class="qa_box">
+      <div class="qa1 qa">
+        <button class="q1 q">что такое хакатон?</button>
+        <div class="a1 a">это командное соревнование для программистов, дизайнеров, менеджеров, аналитиков и других IT-специалистов, которые в сжатые сроки решают технологическую задачу: разрабатывают прототип, содержащий основной функционал</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa2 qa">
+        <button class="q2 q">в каком формате и где будет проходить мероприятие?</button>
+        <div class="a2 a">очно<br>по адресу: г. Кемерово, проспект Советский 73, 2 корпус КемГУ</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa3 qa">
+        <button class="q3 q">кто может участвовать?</button>
+        <div class="a3 a">учащиеся 10-11 классов общеобразовательных школ<br>
+          студенты всех форм обучения<br>
+        </div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa4 qa">
+        <button class="q4 q">я могу участвовать один (без команды)?</button>
+        <div class="a4 a">нет, до участия в хакатоне допускается только команды из 2-4 человек</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa5 qa">
+        <button class="q5 q">а если нет команды?</button>
+        <div class="a5 a">ты можешь зарегистрироваться в одиночку, а мы подберем тебе команду</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa6 qa">
+        <button class="q6 q">сколько стоит участие?</button>
+        <div class="a6 a">бесплатно</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa7 qa">
+        <button class="q7 q">когда заканчивается регистрация?</button>
+        <div class="a7 a">17 апреля</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa8 qa">
+        <button class="q8 q">что мне надо взять с собой?</button>
+        <div class="a8 a">ноутбук для каждого участника команды, мобильный телефон или планшет, паспорт гражданина РФ (при необходимости предоставим ПК)</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa9 qa">
+        <button class="q9 q">есть ограничения по использованию ПО?</button>
+        <div class="a9 a">можешь использовать все, к чему ты привык, если это не нарушает законодательство РФ</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+      <div class="qa10 qa">
+        <button class="q10 q">у меня остались вопросы...</button>
+        <div class="a10 a">support@hackathonidigit.ru</div>
+        <img src="img/line.svg" class="qa_line">
+      </div>
+    </div>
+  </div>
+
+  <div class="fifth_screen" id="fifth_screen">
+    <div class="partners_title">партнеры</div>
+    <div class="partners_card_box">
+      <div class="partners_card_box_first_column">
+        <div class="card_ID partner_card" id="cardID"></div>
+        <div id="balatro"></div>
+      </div>
+      <div class="partners_card_box_second_column">
+        <div class="card_KemSu partner_card" id="cardKemSU"></div>
+      </div>
+      <div class="partners_card_box_third_column">
+        <div class="card_UMPKemSU partner_card" id="cardUMPKemSU"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sixth_screen" id="sixth_screen">
+    <div class="prize_title">призы</div>
+    <div class="metaballs-root" id="metaballs-root"></div>
+    <div class="all_prizes">
+      <div class="prize_cont">
+        <img class="prize_cont_img" src="img/alice.svg" alt="Яндекс станция лайт">
+        <div class="prize_cont_title_subtitle">
+          <div class="prize_cont_title">умная колонка</div>
+        </div>
+      </div>
+      <div class="prize_cont">
+        <img class="prize_cont_img" src="img/keyboard.svg" alt="игровая клавиатура">
+        <div class="prize_cont_title_subtitle">
+          <div class="prize_cont_title">игровая клавиатура</div>
+        </div>
+      </div>
+      <div class="prize_cont">
+        <img class="prize_cont_img" src="img/headphones.svg" alt="волноразмерные наушники">
+        <div class="prize_cont_title_subtitle">
+          <div class="prize_cont_title">полноразмерные наушники</div>
+        </div>
+      </div>
+      <div class="prize_cont">
+        <img class="prize_cont_img" src="img/mouse.svg" alt="игровая мышь">
+        <div class="prize_cont_title_subtitle">
+          <div class="prize_cont_title">игровая мышь</div>
+        </div>
+      </div>
+      <div class="prize_cont">
+        <img class="prize_cont_img" src="img/charge.svg" alt="внешний аккумулятор">
+        <div class="prize_cont_title_subtitle">
+          <div class="prize_cont_title">внешний аккумулятор</div>
+        </div>
+      </div>
+      <div class="prize_cont">
+        <img class="prize_cont_img" src="img/dns.svg" alt="подарочный сертификат DNS">
+        <div class="prize_cont_title_subtitle">
+          <div class="prize_cont_title">подарочный сертификат в магазин электроники</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="seventh_screen" id="seventh_screen">
+    <div class="seventh_screen_container">
+      <div class="farm_all_container">
+        <div class="form_title">заявка участника</div>
+        <div class="form_container">
+          <form id="myForm" method="post" enctype="multipart/form-data">
+            <input type="text" class="full_name input_f" id="full_name" name="full_name" required placeholder="фио">
+            <input type="text" class="institution input_f" id="institution" name="institution" required placeholder="учебное заведение">
+            <input type="tel" class="phone input_f" id="phone" name="phone" required placeholder="номер телефона (+7xxxxxxxxxx)">
+            <input type="email" class="email input_f" id="email" name="email" required placeholder="email">
+
+            <!-- Трек -->
+            <div class="track_container but_cont">
+              <div class="track_question que">трек:</div>
+              <button type="button" class="form_track_button_student" id="form_track_button_student">студенты</button>
+              <button type="button" class="form_track_button_pupil" id="form_track_button_pupil">школьники</button>
+              <input type="hidden" id="selected_track" name="selected_track" value="none">
+            </div>
+
+            <!-- Команда -->
+            <div class="command_container but_cont">
+              <div class="command_question que">есть команда:</div>
+              <button type="button" class="form_command_button_yes" id="form_command_button_yes">да</button>
+              <button type="button" class="form_command_button_no" id="form_command_button_no">нет</button>
+              <input type="hidden" id="selected_command" name="selected_command" value="none">
+            </div>
+
+            <input type="text" class="command_name input_f hidden" id="command_name" name="command_name" placeholder="название команды">
+            <p class="command_alert hidden" id="command_alert">все участники команды должны подать заявку, указав одинаковое название команды</p>
+
+            <!-- Политика конфиденциальности и кнопка -->
+            <div class="politicsNsubmit">
+              <div class="politics_question">нажимая кнопку <strong>отправить</strong> вы даете <a href="http://hackathonidigit.ru/pers_data"><ins>согласие на обработку персональных данных</ins></a>. подробнее об обработке персональных данных в <a href="http://hackathonidigit.ru/privacy_policy"><ins>политике</ins></a></div>
+              <button class="submit_button" type="submit">отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="backgroundNdocuments">
+        <div id="CircularText"></div>
+        <a href="documents/competition_regulations.pdf" class="competition_regulations form_docs">положение</a>
+        <a href="http://hackathonidigit.ru/privacy_policy" class="privacy_policy form_docs">политика в отношении обработки персональных данных</a>
+        <a href="http://hackathonidigit.ru/pers_data" class="pers_data form_docs">согласие на обработку персональных данных</a>
+        <p class="UPD">
+          проект реализуется за счет грантовых средств
+          университетского конкурса молодежных проектов
+          обучающихся КемГУ «Гранты ректора» и
+          при поддержке Управления молодежной политики КемГУ</p>
+      </div>
+
+    </div>
+
+    <div id="successMessage" class="hidden"><div class="success_massage_text"></div></div>
+
+  </div>
+
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="vertexShader" type="x-shader/x-vertex">
+
+
+  vec3 mod289(vec3 x)
+  {
+    return x - floor(x * (1.0 / 289.0)) * 289.0;
+  }
+
+  vec4 mod289(vec4 x)
+  {
+    return x - floor(x * (1.0 / 289.0)) * 289.0;
+  }
+
+  vec4 permute(vec4 x)
+  {
+    return mod289(((x*34.0)+1.0)*x);
+  }
+
+  vec4 taylorInvSqrt(vec4 r)
+  {
+    return 1.79284291400159 - 0.85373472095314 * r;
+  }
+
+  vec3 fade(vec3 t) {
+    return t*t*t*(t*(t*6.0-15.0)+10.0);
+  }
+
+  float cnoise(vec3 P)
+  {
+    vec3 Pi0 = floor(P);
+    vec3 Pi1 = Pi0 + vec3(1.0);
+    Pi0 = mod289(Pi0);
+    Pi1 = mod289(Pi1);
+    vec3 Pf0 = fract(P);
+    vec3 Pf1 = Pf0 - vec3(1.0);
+    vec4 ix = vec4(Pi0.x, Pi1.x, Pi0.x, Pi1.x);
+    vec4 iy = vec4(Pi0.yy, Pi1.yy);
+    vec4 iz0 = Pi0.zzzz;
+    vec4 iz1 = Pi1.zzzz;
+
+    vec4 ixy = permute(permute(ix) + iy);
+    vec4 ixy0 = permute(ixy + iz0);
+    vec4 ixy1 = permute(ixy + iz1);
+
+    vec4 gx0 = ixy0 * (1.0 / 5.0);
+    vec4 gy0 = fract(floor(gx0) * (1.0 / 5.0)) - 0.5;
+    gx0 = fract(gx0);
+    vec4 gz0 = vec4(0.5) - abs(gx0) - abs(gy0);
+    vec4 sz0 = step(gz0, vec4(0.0));
+    gx0 -= sz0 * (step(0.0, gx0) - 0.5);
+    gy0 -= sz0 * (step(0.0, gy0) - 0.5);
+
+    vec4 gx1 = ixy1 * (1.0 / 5.0);
+    vec4 gy1 = fract(floor(gx1) * (1.0 / 5.0)) - 0.5;
+    gx1 = fract(gx1);
+    vec4 gz1 = vec4(0.5) - abs(gx1) - abs(gy1);
+    vec4 sz1 = step(gz1, vec4(0.0));
+    gx1 -= sz1 * (step(0.0, gx1) - 0.5);
+    gy1 -= sz1 * (step(0.0, gy1) - 0.5);
+
+    vec3 g000 = vec3(gx0.x,gy0.x,gz0.x);
+    vec3 g100 = vec3(gx0.y,gy0.y,gz0.y);
+    vec3 g010 = vec3(gx0.z,gy0.z,gz0.z);
+    vec3 g110 = vec3(gx0.w,gy0.w,gz0.w);
+    vec3 g001 = vec3(gx1.x,gy1.x,gz1.x);
+    vec3 g101 = vec3(gx1.y,gy1.y,gz1.y);
+    vec3 g011 = vec3(gx1.z,gy1.z,gz1.z);
+    vec3 g111 = vec3(gx1.w,gy1.w,gz1.w);
+
+    vec4 norm0 = taylorInvSqrt(vec4(dot(g000, g000), dot(g010, g010), dot(g100, g100), dot(g110, g110)));
+    g000 *= norm0.x;
+    g010 *= norm0.y;
+    g100 *= norm0.z;
+    g110 *= norm0.w;
+    vec4 norm1 = taylorInvSqrt(vec4(dot(g001, g001), dot(g011, g011), dot(g101, g101), dot(g111, g111)));
+    g001 *= norm1.x;
+    g011 *= norm1.y;
+    g101 *= norm1.z;
+    g111 *= norm1.w;
+
+    float n000 = dot(g000, Pf0);
+    float n100 = dot(g100, vec3(Pf1.x, Pf0.yz));
+    float n010 = dot(g010, vec3(Pf0.x, Pf1.y, Pf0.z));
+    float n110 = dot(g110, vec3(Pf1.xy, Pf0.z));
+    float n001 = dot(g001, vec3(Pf0.xy, Pf1.z));
+    float n101 = dot(g101, vec3(Pf1.x, Pf0.y, Pf1.z));
+    float n011 = dot(g011, vec3(Pf0.x, Pf1.yz));
+    float n111 = dot(g111, Pf1);
+
+    vec3 fade_xyz = fade(Pf0);
+    vec4 n_z = mix(vec4(n000, n100, n010, n110), vec4(n001, n101, n011, n111), fade_xyz.z);
+    vec2 n_yz = mix(n_z.xy, n_z.zw, fade_xyz.y);
+    float n_xyz = mix(n_yz.x, n_yz.y, fade_xyz.x);
+    return 2.2 * n_xyz;
+  }
+
+  float pnoise(vec3 P, vec3 rep)
+  {
+    vec3 Pi0 = mod(floor(P), rep);
+    vec3 Pi1 = mod(Pi0 + vec3(1.0), rep);
+    Pi0 = mod289(Pi0);
+    Pi1 = mod289(Pi1);
+    vec3 Pf0 = fract(P);
+    vec3 Pf1 = Pf0 - vec3(1.0);
+    vec4 ix = vec4(Pi0.x, Pi1.x, Pi0.x, Pi1.x);
+    vec4 iy = vec4(Pi0.yy, Pi1.yy);
+    vec4 iz0 = Pi0.zzzz;
+    vec4 iz1 = Pi1.zzzz;
+
+    vec4 ixy = permute(permute(ix) + iy);
+    vec4 ixy0 = permute(ixy + iz0);
+    vec4 ixy1 = permute(ixy + iz1);
+
+    vec4 gx0 = ixy0 * (1.0 / 5.0);
+    vec4 gy0 = fract(floor(gx0) * (1.0 / 5.0)) - 0.5;
+    gx0 = fract(gx0);
+    vec4 gz0 = vec4(0.5) - abs(gx0) - abs(gy0);
+    vec4 sz0 = step(gz0, vec4(0.0));
+    gx0 -= sz0 * (step(0.0, gx0) - 0.5);
+    gy0 -= sz0 * (step(0.0, gy0) - 0.5);
+
+    vec4 gx1 = ixy1 * (1.0 / 5.0);
+    vec4 gy1 = fract(floor(gx1) * (1.0 / 5.0)) - 0.5;
+    gx1 = fract(gx1);
+    vec4 gz1 = vec4(0.5) - abs(gx1) - abs(gy1);
+    vec4 sz1 = step(gz1, vec4(0.0));
+    gx1 -= sz1 * (step(0.0, gx1) - 0.5);
+    gy1 -= sz1 * (step(0.0, gy1) - 0.5);
+
+    vec3 g000 = vec3(gx0.x,gy0.x,gz0.x);
+    vec3 g100 = vec3(gx0.y,gy0.y,gz0.y);
+    vec3 g010 = vec3(gx0.z,gy0.z,gz0.z);
+    vec3 g110 = vec3(gx0.w,gy0.w,gz0.w);
+    vec3 g001 = vec3(gx1.x,gy1.x,gz1.x);
+    vec3 g101 = vec3(gx1.y,gy1.y,gz1.y);
+    vec3 g011 = vec3(gx1.z,gy1.z,gz1.z);
+    vec3 g111 = vec3(gx1.w,gy1.w,gz1.w);
+
+    vec4 norm0 = taylorInvSqrt(vec4(dot(g000, g000), dot(g010, g010), dot(g100, g100), dot(g110, g110)));
+    g000 *= norm0.x;
+    g010 *= norm0.y;
+    g100 *= norm0.z;
+    g110 *= norm0.w;
+    vec4 norm1 = taylorInvSqrt(vec4(dot(g001, g001), dot(g011, g011), dot(g101, g101), dot(g111, g111)));
+    g001 *= norm1.x;
+    g011 *= norm1.y;
+    g101 *= norm1.z;
+    g111 *= norm1.w;
+
+    float n000 = dot(g000, Pf0);
+    float n100 = dot(g100, vec3(Pf1.x, Pf0.yz));
+    float n010 = dot(g010, vec3(Pf0.x, Pf1.y, Pf0.z));
+    float n110 = dot(g110, vec3(Pf1.xy, Pf0.z));
+    float n001 = dot(g001, vec3(Pf0.xy, Pf1.z));
+    float n101 = dot(g101, vec3(Pf1.x, Pf0.y, Pf1.z));
+    float n011 = dot(g011, vec3(Pf0.x, Pf1.yz));
+    float n111 = dot(g111, Pf1);
+
+    vec3 fade_xyz = fade(Pf0);
+    vec4 n_z = mix(vec4(n000, n100, n010, n110), vec4(n001, n101, n011, n111), fade_xyz.z);
+    vec2 n_yz = mix(n_z.xy, n_z.zw, fade_xyz.y);
+    float n_xyz = mix(n_yz.x, n_yz.y, fade_xyz.x);
+    return 1.5 * n_xyz;
+  }
+
+
+  varying vec2 vUv;
+  varying float noise;
+  varying float qnoise;
+  varying float displacement;
+
+  uniform float time;
+  uniform float displace;
+  uniform float pointscale;
+  uniform float decay;
+  uniform float size;
+  uniform float complex;
+  uniform float waves;
+  uniform float eqcolor;
+  uniform bool fragment;
+
+  float turbulence( vec3 p) {
+    float t = - 0.005;
+    for (float f = 1.0 ; f <= 1.0 ; f++ ){
+      float power = pow( 1.3, f );
+      t += abs( pnoise( vec3( power * p ), vec3( 10.0, 10.0, 10.0 ) ) / power );
+    }
+    return t;
+  }
+
+  void main() {
+
+    vUv = uv;
+
+    noise = (2.0 *  - waves) * turbulence( decay * abs(normal + time));
+    qnoise = (0.3 *  - eqcolor) * turbulence( decay * abs(normal + time));
+    float b = pnoise( complex * (position) + vec3( (decay * 2.0) * time ), vec3( 100.0 ) );
+
+    displacement = - atan(noise) + tan(b * displace);
+
+    vec3 newPosition = (position) + (normal * displacement);
+    gl_Position = (projectionMatrix * modelViewMatrix) * vec4( newPosition, abs(size) );
+    gl_PointSize = (3.0);
+  }
+
+</script>
+<script id="fragmentShader" type="x-shader/x-vertex">
+  varying float qnoise;
+  varying float noise;
+
+  uniform float time;
+  uniform bool redhell;
+  uniform float rcolor;
+  uniform float gcolor;
+  uniform float bcolor;
+
+  void main() {
+    float r, g, b;
+
+    if (!redhell == true) {
+      r = sin(qnoise + rcolor);
+      g = normalize(qnoise + (gcolor / 2.0));
+      b = tan(qnoise + bcolor);
+    } else {
+      r = normalize(qnoise + rcolor);
+      g = cos(qnoise + gcolor);
+      b = sin(qnoise + bcolor);
+    }
+    gl_FragColor = vec4(r, g, b, 1.0);
+  }
+</script>
+
+<script type="module" src="participation_form.js"></script>
+<script type="module" src="/src/main.jsx"></script>
+
+
+
+</html>
+<!-- -->
