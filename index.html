@@ -24,6 +24,35 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
   <script src="Shader_WOGUI.js"></script>
 
+  <script>
+    function scaleSite() {
+      const baseWidth = 1920;
+      const currentWidth = window.innerWidth;
+
+      // Масштабировать только если экран уже, чем дизайн
+      if (currentWidth < baseWidth) {
+        const scale = currentWidth / baseWidth;
+        document.body.style.transform = `scale(${scale})`;
+        document.body.style.transformOrigin = 'top left';
+        document.body.style.width = baseWidth + 'px';
+        document.body.style.height = 'auto';
+        document.documentElement.style.overflowX = 'hidden';
+      } else {
+        // Сброс стилей при ширине >= 1920
+        document.body.style.transform = '';
+        document.body.style.transformOrigin = '';
+        document.body.style.width = '';
+        document.body.style.height = '';
+        document.documentElement.style.overflowX = '';
+      }
+    }
+
+    window.addEventListener('load', scaleSite);
+    window.addEventListener('resize', scaleSite);
+  </script>
+
+
+
 </head>
 
 <body>
@@ -45,7 +74,7 @@
     <div class="first_screen_title">
       <div class="title">хакатон</div>
       <div class="sub_titles">
-        <div class="dates">19—20 апреля</div>
+        <div class="dates">26—27 апреля</div>
         <div class="institution_st">цифровое студенчество КемГУ</div>
       </div>
     </div>
@@ -218,14 +247,14 @@
   </div>
 
   <div class="fifth_screen" id="fifth_screen">
-    <div class="partners_title">партнеры</div>
+    <div class="partners_title">организаторы</div>
     <div class="partners_card_box">
+      <div class="partners_card_box_second_column">
+        <div class="card_KemSu partner_card" id="cardKemSU"></div>
+      </div>
       <div class="partners_card_box_first_column">
         <div class="card_ID partner_card" id="cardID"></div>
         <div id="balatro"></div>
-      </div>
-      <div class="partners_card_box_second_column">
-        <div class="card_KemSu partner_card" id="cardKemSU"></div>
       </div>
       <div class="partners_card_box_third_column">
         <div class="card_UMPKemSU partner_card" id="cardUMPKemSU"></div>
@@ -284,7 +313,7 @@
           <form id="myForm" method="post" enctype="multipart/form-data">
             <input type="text" class="full_name input_f" id="full_name" name="full_name" required placeholder="фио">
             <input type="text" class="institution input_f" id="institution" name="institution" required placeholder="учебное заведение">
-            <input type="tel" class="phone input_f" id="phone" name="phone" required placeholder="номер телефона (+7xxxxxxxxxx)">
+            <input type="tel" class="phone input_f" id="phone" name="phone" pattern="^\+7\d{10}$" required placeholder="номер телефона (+7xxxxxxxxxx)">
             <input type="email" class="email input_f" id="email" name="email" required placeholder="email">
 
             <!-- Трек -->
@@ -308,7 +337,7 @@
 
             <!-- Политика конфиденциальности и кнопка -->
             <div class="politicsNsubmit">
-              <div class="politics_question">нажимая кнопку <strong>отправить</strong> вы даете <a href="http://hackathonidigit.ru/pers_data"><ins>согласие на обработку персональных данных</ins></a>. подробнее об обработке персональных данных в <a href="http://hackathonidigit.ru/privacy_policy"><ins>политике</ins></a></div>
+              <div class="politics_question">нажимая кнопку <strong>отправить</strong> вы соглашаетесь с <a href="http://hackathonidigit.ru/pers_data">положением</a> и даете <a href="http://hackathonidigit.ru/pers_data"><ins>согласие на обработку персональных данных</ins></a>. подробнее об обработке персональных данных в <a href="http://hackathonidigit.ru/privacy_policy"><ins>политике</ins></a></div>
               <button class="submit_button" type="submit">отправить</button>
             </div>
           </form>

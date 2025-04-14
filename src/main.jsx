@@ -8,6 +8,7 @@ import './scripts/GradientButtons.js';
 import './scripts/faq.js';
 import './scripts/forms_buttons.js';
 import './scripts/menuButton.js';
+//import './scripts/zoom.js';
 import '../participation_form.js';
 
 import './style.css';

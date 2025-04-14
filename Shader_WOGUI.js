@@ -39,9 +39,10 @@ function createWorld() {
   window.addEventListener('resize', onWindowResize, false);
 }
 function onWindowResize() {
-  _width = window.innerWidth;
-  _height = window.innerHeight;
-  renderer.setSize(_width, _height);
+  renderer.setSize(window.innerWidth, window.innerHeight, true); // false = не трогать canvas.style
+  renderer.domElement.style.width = "100vw";
+  renderer.domElement.style.height = "100vh";
+
   camera.aspect = _width / _height;
   camera.updateProjectionMatrix();
   console.log('- resize -');

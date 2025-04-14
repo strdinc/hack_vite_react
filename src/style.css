@@ -1,7 +1,7 @@
-
   .center-container {
     width: 1920px;
     position: relative;
+    margin: 0 auto;
   }
   .active_button_form {
     background-color: white;
@@ -22,18 +22,17 @@
     overflow-x: hidden;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
   canvas {
-    position: absolute;
     display: block;
-    width: 1920px;
-    height: 1080px;
+    position: absolute;
     top: 0;
     left: 0;
+    width: 100vw;
+    height: 100vh;
     z-index: -1;
   }
+
   a, a:hover, a:visited {
     color: white;
     text-decoration: none;
@@ -553,14 +552,14 @@
     margin-right: 0;
   }
   .partners_card_box_first_column {
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     height: 620px;
   }
   .partners_card_box_second_column {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
   }
   .partners_card_box_third_column {
@@ -753,7 +752,6 @@
     margin-top: -15px;
     font-size: 18px;
   }
-
   .politicsNsubmit {
     width: 100%;
     flex-direction: row;
@@ -763,8 +761,8 @@
     margin-top: 10px;
   }
   .politics_question {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
     margin-top: 10px;
     margin-right: 50px;
     align-items: center;
