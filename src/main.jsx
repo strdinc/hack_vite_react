@@ -43,11 +43,11 @@ const container_cardID = document.getElementById('cardID');
 const cardID = createRoot(container_cardID);
 
 cardID.render(
-    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 92, 255, 0.6)">
+    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 73, 176, 0.6)">
         <img className="ID_logo_partner" src={IDigitlogo} alt="id logo"/>
         <div className="IDCard_title card_title">Институт цифры</div>
         <div className="IDCard_text card_text">
-            созданный в 2020 году на площадке Кемеровского
+            создан в 2020 году на базе Кемеровского
             государственного университета Институт цифры
             сегодня является лидером по вопросам цифровизации Кузбасса
         </div>
@@ -73,7 +73,7 @@ const container_cardKemSU = document.getElementById('cardKemSU');
 const cardKemSU = createRoot(container_cardKemSU);
 
 cardKemSU.render(
-    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(244, 163, 67, 0.4)">
+    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(125, 19, 155, 0.4)">
         <img className="KemSU_logo_partner" src={KemSUlogo} alt="KemSU logo"/>
         <div className="KemSUCard_title card_title">Кемеровский государственный университет</div>
         <div className="KemSUCard_text card_text">
@@ -94,7 +94,7 @@ const container_cardUMPKemSU = document.getElementById('cardUMPKemSU');
 const cardUMPKemSU = createRoot(container_cardUMPKemSU);
 
 cardUMPKemSU.render(
-    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(46, 49, 146, 0.8)">
+    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 163, 234, 0.6)">
         <img className="UMPKemSU_logo_partner" src={UMPKemSUlogo} alt="UMPKemSU logo"/>
         <div className="UMPKemSUCard_title card_title">Управление молодежной политики КемГУ</div>
         <div className="UMPKemSUCard_text card_text">
