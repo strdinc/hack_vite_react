@@ -5,12 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff4863bc-666f-4567-ac1b-3de9a4c18c19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/consent.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Extrabold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Extrabold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Extrabold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Extrabold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Semibold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/Gilroy-Semibold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/font/Gilroy/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regulation/privacy_policy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/birthday.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-BmvaDDO6.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/index-BmvaDDO6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-TsU1S0B7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-BmvaDDO6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-DP1JI_7o.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/participation_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/participation_form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/submit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +69,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev start.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.npm run dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.run dev.executor&quot;: &quot;Run&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/nik-f/WebstormProjects/hack_vite_react",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.dev start.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.npm run dev.executor": "Run",
+    "npm.run dev.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nik-f\WebstormProjects\hack_vite_react" />
+      <recent name="C:\Users\nik-f\WebstormProjects\hack_vite_react\regulation" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -85,7 +122,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
       </set>
     </attachedChunks>
   </component>
@@ -104,6 +141,8 @@
       <workItem from="1744708433607" duration="7000" />
       <workItem from="1744708485201" duration="278000" />
       <workItem from="1744716380841" duration="1672000" />
+      <workItem from="1744722281856" duration="8738000" />
+      <workItem from="1744736361897" duration="666000" />
     </task>
     <servers />
   </component>

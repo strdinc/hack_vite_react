@@ -587,6 +587,37 @@
     height: 100%;
     border-radius: 1.5rem;
   }
+  .fifth_screen_dop {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 72px;
+    padding-right: 65px;
+  }
+
+  .fifth_screen_dop_title {
+    font-size: 235px;
+    height: 235px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: -40px
+  }
+
+  .fifth_screen_dop_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-spotlight {
+    padding: 50px;
+  }
+  .partner_dop_card {
+    width: 550px;
+  }
+
   .sixth_screen {
     position: relative;
     display: flex;
@@ -699,7 +730,7 @@
   }
   input#full_name::placeholder, input#phone::placeholder,
   input#institution::placeholder, input#email::placeholder,
-  input#command_name::placeholder {
+  input#command_name::placeholder, .birthday::placeholder {
     color: white;
   }
   .email {
@@ -738,7 +769,7 @@
   }
   .form_track_button_student, .form_track_button_pupil,
   .form_command_button_yes, .form_command_button_no,
-  .form_politics_button_yes {
+  .form_politics_button_yes, .custom-file-button {
     font-size: 40px;
     font-weight: 300;
     border: 2px solid white;
@@ -752,6 +783,37 @@
     margin-top: -15px;
     font-size: 18px;
   }
+
+  .consent_container {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .download_consent {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 42px;
+  }
+  .file-upload-container {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+  }
+  .file-name {
+    display: flex;
+    margin: auto 0;
+  }
+  .consent_text {
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-align: justify;
+  }
+
+  .file-name {
+    font-size: 40px;
+  }
+
   .politicsNsubmit {
     width: 100%;
     flex-direction: row;

@@ -65,7 +65,7 @@
     <button type="button" class="navigation_button navigation_button_participation" id="participation" data-scroll-to="second_screen">участие</button>
     <button type="button" class="navigation_button navigation_button_schedule" id="schedule" data-scroll-to="third_screen">расписание</button>
     <button type="button" class="navigation_button navigation_button_fq" id="fq" data-scroll-to="fourth_screen">faq</button>
-    <button type="button" class="navigation_button navigation_button_partners" id="partners" data-scroll-to="fifth_screen">партнеры</button>
+    <button type="button" class="navigation_button navigation_button_partners" id="partners" data-scroll-to="fifth_screen">организаторы</button>
     <button type="button" class="navigation_button navigation_button_prize" id="prize" data-scroll-to="sixth_screen">призы</button>
     <button type="button" class="navigation_button navigation_button_form" id="form" data-scroll-to="seventh_screen">заявка</button>
   </div>
@@ -258,7 +258,15 @@
   </div>
 
   <div class="fifth_screen_dop">
-    
+    <div class="fifth_screen_dop_title">партнеры</div>
+    <div class="fifth_screen_dop_cards">
+      <div class="partner_dop_card" id="cardDOPone"></div>
+      <div class="partner_dop_card hidden" id="cardDOPtwo"></div>
+      <div class="partner_dop_card hidden" id="cardDOPthree"></div>
+      <div class="partner_dop_card hidden" id="cardDOPfour"></div>
+      <div class="partner_dop_card hidden" id="cardDOPfifth"></div>
+      <div class="partner_dop_card hidden" id="cardDOPsixth"></div>
+    </div>
   </div>
 
   <div class="sixth_screen" id="sixth_screen">
@@ -311,6 +319,8 @@
         <div class="form_container">
           <form id="myForm" method="post" enctype="multipart/form-data">
             <input type="text" class="full_name input_f" id="full_name" name="full_name" required placeholder="фио">
+            <input type="text" class="birthday input_f" id="birthday" name="birthday" required
+                   placeholder="дата рождения (дд.мм.гггг)" pattern="\d{2}\.\d{2}\.\d{4}" maxlength="10">
             <input type="text" class="institution input_f" id="institution" name="institution" required placeholder="учебное заведение">
             <input type="tel" class="phone input_f" id="phone" name="phone" pattern="^\+7\d{10}$" required placeholder="номер телефона (+7xxxxxxxxxx)">
             <input type="email" class="email input_f" id="email" name="email" required placeholder="email">
@@ -334,9 +344,22 @@
             <input type="text" class="command_name input_f hidden" id="command_name" name="command_name" placeholder="название команды">
             <p class="command_alert hidden" id="command_alert">все участники команды должны подать заявку, указав одинаковое название команды</p>
 
+            <!-- Контейнер для загрузки согласия -->
+            <div class="consent_container hidden" id="consent_container">
+              <div class="consent_text">загрузка согласия на обработку персональных данных от законного представителя (для участников младше 18 лет)</div>
+              <div class="download_consent"><a href="consent.pdf"><ins>скачать согласие</ins></a></div>
+
+              <div class="file-upload-container">
+                <input type="file" class="consent_file hidden" id="consent_file" name="consent_file" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg">
+                <button type="button" class="custom-file-button">выберите файл</button>
+                <span class="file-name">файл не выбран</span>
+              </div>
+
+             </div>
+
             <!-- Политика конфиденциальности и кнопка -->
             <div class="politicsNsubmit">
-              <div class="politics_question">нажимая кнопку <strong>отправить</strong> вы соглашаетесь с <a href="http://hackathonidigit.ru/pers_data">положением</a> и даете <a href="http://hackathonidigit.ru/pers_data"><ins>согласие на обработку персональных данных</ins></a>. подробнее об обработке персональных данных в <a href="http://hackathonidigit.ru/privacy_policy"><ins>политике</ins></a></div>
+              <div class="politics_question">нажимая кнопку <strong>отправить</strong> вы соглашаетесь с <a href="http://hackathonidigit.ru/regulations"><ins>положением</ins></a> и даете <a href="http://hackathonidigit.ru/pers_data"><ins>согласие на обработку персональных данных</ins></a>. подробнее об обработке персональных данных в <a href="http://hackathonidigit.ru/privacy_policy"><ins>политике</ins></a></div>
               <button class="submit_button" type="submit">отправить</button>
             </div>
           </form>
@@ -344,7 +367,7 @@
       </div>
       <div class="backgroundNdocuments">
         <div id="CircularText"></div>
-        <a href="documents/competition_regulations.pdf" class="competition_regulations form_docs">положение</a>
+        <a href="http://hackathonidigit.ru/regulation" class="competition_regulations form_docs">положение</a>
         <a href="http://hackathonidigit.ru/privacy_policy" class="privacy_policy form_docs">политика в отношении обработки персональных данных</a>
         <a href="http://hackathonidigit.ru/pers_data" class="pers_data form_docs">согласие на обработку персональных данных</a>
         <p class="UPD">

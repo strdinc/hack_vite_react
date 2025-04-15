@@ -8,7 +8,7 @@ import './scripts/GradientButtons.js';
 import './scripts/faq.js';
 import './scripts/forms_buttons.js';
 import './scripts/menuButton.js';
-//import './scripts/zoom.js';
+//import './scripts/birthday.js';
 import '../participation_form.js';
 
 import './style.css';
@@ -122,3 +122,28 @@ balatroBACK.render(
     pixelFilter={700}
     />
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const container_card_DOP = document.getElementById('cardDOPone');
+const cardDOP = createRoot(container_card_DOP);
+
+cardDOP.render(
+    <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.05)">
+        coming soon
+    </SpotlightCard>
+);
+
