@@ -48,7 +48,7 @@ cardID.render(
         <div className="IDCard_title card_title">Институт цифры</div>
         <div className="IDCard_text card_text">
             создан в 2020 году на базе Кемеровского
-            государственного университета Институт цифры
+            государственного университета.<br/>Институт цифры
             сегодня является лидером по вопросам цифровизации Кузбасса
         </div>
         <div className="hrefs">

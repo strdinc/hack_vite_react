@@ -589,7 +589,7 @@
   }
   .fifth_screen_dop {
     position: relative;
-    display: flex;
+    display: none;
     flex-direction: column;
     width: auto;
     height: auto;
