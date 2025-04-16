@@ -5,28 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff4863bc-666f-4567-ac1b-3de9a4c18c19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pmh.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-B3tzJDTy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-BFqnfVqE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-DYlfbbLN.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-DsqLwZCr.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-HE4GKDYE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-HE4GKDYE.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-MJNCUEZK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-MJNCUEZK.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-UGC3UZ7L.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-UGC3UZ7L.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-3JQK3TMX.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-3JQK3TMX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-3JQK3TMX.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-3JQK3TMX.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BCRBT45M.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BCRBT45M.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BCRBT45M.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BCRBT45M.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BKLRCT72.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BKLRCT72.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BKLRCT72.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-BKLRCT72.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-G3PMV62Z.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-G3PMV62Z.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-G3PMV62Z.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-G3PMV62Z.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/framer-motion.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/framer-motion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/framer-motion.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/framer-motion.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/ogl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/ogl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/ogl.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/ogl.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom_client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom_client.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react-dom_client.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-dev-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-dev-runtime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-dev-runtime.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-dev-runtime.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-runtime.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/react_jsx-runtime.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
@@ -61,7 +69,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nik-f/WebstormProjects/hack_vite_react&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ksanl/WebstormProjects/hackademic_vite_react_m&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,7 +118,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
       </set>
     </attachedChunks>
   </component>
@@ -133,6 +141,9 @@
       <workItem from="1744736361897" duration="666000" />
       <workItem from="1744779527196" duration="256000" />
       <workItem from="1744780087525" duration="444000" />
+      <workItem from="1744804477711" duration="293000" />
+      <workItem from="1744805359461" duration="210000" />
+      <workItem from="1744805577005" duration="6000" />
     </task>
     <servers />
   </component>

@@ -589,7 +589,7 @@
   }
   .fifth_screen_dop {
     position: relative;
-    display: none;
+    display: flex;
     flex-direction: column;
     width: auto;
     height: auto;
@@ -616,6 +616,10 @@
   }
   .partner_dop_card {
     width: 550px;
+  }
+
+  .PMH_logo_partner {
+    width: 100%;
   }
 
   .sixth_screen {

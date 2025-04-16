@@ -136,14 +136,19 @@ balatroBACK.render(
 
 
 
-
+import PMHlogo from './pmh.png'
 
 const container_card_DOP = document.getElementById('cardDOPone');
 const cardDOP = createRoot(container_card_DOP);
 
 cardDOP.render(
     <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 255, 255, 0.05)">
-        coming soon
+        <img className="PMH_logo_partner" src={PMHlogo} alt="PMH logo"/>
+        <div className="hrefs">
+            <a className="internet_link" href="https://metholding.ru/"><img className="internet_link_img" src={Internetlogo}></img></a>
+            <a className="vk_link" href="https://vk.com/metholdingru"><img className="vk_link_img" src={VKlogo}></img></a>
+        </div>
+
     </SpotlightCard>
 );
 
